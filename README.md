@@ -20,13 +20,13 @@
 -   Open another terminal and navigate to the Kafka directory (e.g., `C:\kafka`).
 -   Run the following command to start Zookeeper: `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 
-# Running The Producer With NodeJS
+# Running the Producer With NodeJS
 
 1.  `npm install`
 2.  `npm run start`
 
-# How To Force Delete Kafka Log Folder
+# How To Force Delete Kafka Log Folder on Windows
 
-Open CMD:
+Open terminal:
 
 -   `del /f C:\kafka\tmp\kafka-logs`
