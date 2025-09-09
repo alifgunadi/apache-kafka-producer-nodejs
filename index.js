@@ -1,5 +1,6 @@
+require('dotenv').config({ quiet: true })
 const logger = require('./utils/winston')
-const isJSON = require('./utils/isJson')
+// const isJSON = require('./utils/isJson')
 const data_sample_detail = require('./sample-send-data-detail.json')
 const data_sample_header = require('./sample-send-data-header.json')
 
@@ -28,12 +29,11 @@ producer.on('ready', (payload) => {
   logger.info('[KAFKA PRODUCER] Producer connected and ready')
 
   // const message = isJSON(data_sample_detail) ? data_sample_detail : JSON.stringify(data_sample_detail)
-  // const message = `Today is ${new Date().toLocaleString()}`
 
-  const key = 'example-key'
-  const detail_topic = 'data-detail'
+  const key = process.env.KEY
+  const detail_topic = process.env.DETAIL_TOPIC
   const detail_message = JSON.stringify(data_sample_detail)
-  const header_topic = 'data-header'
+  const header_topic = process.env.HEADER_TOPIC
   const header_message = JSON.stringify(data_sample_header)
   /* Send data detail */
   try {

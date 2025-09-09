@@ -23,7 +23,8 @@
 # Running the Producer With NodeJS
 
 1.  `npm install`
-2.  `npm run start`
+2.  Set the key and topic in the `.env`
+3.  `npm run start`
 
 # How To Force Delete Kafka Log Folder on Windows
 
