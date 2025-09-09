@@ -11,3 +11,9 @@
 # HOW TO RUNNING NODEJS CONSUMER
 
 -   `npm run start`
+
+# HOW TO FORCE DELETE KAFKA-LOG
+
+Open CMD:
+
+-   `del /f C:\kafka\tmp\kafka-logs`
