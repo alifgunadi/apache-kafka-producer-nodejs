@@ -1,6 +1,6 @@
-# HOW TO RUNNING APACHE KAFKA
+# How to running apache-kafka
 
-1. Direct to:
+1. Open terminal and direct to:
    `C:\kafka`
 
 2. Then:
@@ -8,11 +8,11 @@
 -   zookeper: `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 -   kafka-server: `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 
-# HOW TO RUNNING NODEJS CONSUMER
+# How to running producer with nodejs
 
 -   `npm run start`
 
-# HOW TO FORCE DELETE KAFKA-LOG
+# How to force delete kafka-log folder
 
 Open CMD:
 
