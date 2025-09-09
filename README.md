@@ -12,13 +12,13 @@
 
 # Starting Zookeeper
 
--   Zookeper: Open another terminal and navigate to the Kafka directory (e.g., `C:\kafka`).
-    Run the following command to start Zookeeper: `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
+-   Open another terminal and navigate to the Kafka directory (e.g., `C:\kafka`).
+-   Run the following command to start Zookeeper: `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 
 # Starting Kafka Server
 
--   start kafka-server: Open another terminal and navigate to the Kafka directory (e.g., `C:\kafka`).
-    Run the following command to start Zookeeper: `.\bin\windows\kafka-server-start.bat .\config\server.properties`
+-   Open another terminal and navigate to the Kafka directory (e.g., `C:\kafka`).
+-   Run the following command to start Zookeeper: `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 
 # Running The Producer With NodeJS
 
