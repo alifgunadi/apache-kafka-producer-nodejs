@@ -1,6 +1,6 @@
 # Installing Apache Kafka on Windows
 
-1. Download Kafka: [text](https://kafka.apache.org/downloads)
+1. Download Kafka: [here](https://kafka.apache.org/downloads)
 2. Extract Kafka: After downloading Kafka, extract the zip file to a directory of your choice (e.g., `C:\kafka`)
 3. Open terminal and direct to kafka (e.g., `C:\kafka`)
 4. Set Environment Variables: Add the bin directory of your Kafka installation to the `PATH` environment variable.
