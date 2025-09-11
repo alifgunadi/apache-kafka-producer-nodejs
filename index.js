@@ -81,7 +81,7 @@ producer.on('event.error', (err) => {
 })
 
 // Required: to get delivery reports
-producer.setPollInterval(100)
+producer.setPollInterval(1000)
 
 // Graceful shutdown
 process.on('SIGINT', () => {
